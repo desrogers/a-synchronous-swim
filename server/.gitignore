@@ -1,2 +1,5 @@
 background.jpg
 spec/temp.jpg
+server/temp.jpg
+.DS_Store
+server/.DS_Store

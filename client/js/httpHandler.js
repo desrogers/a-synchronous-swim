@@ -11,9 +11,9 @@
     })
   }
 
-  const getServerDirections = setInterval(ajaxGetRequest, 2000);
+  const getServerDirections = setInterval(ajaxGetRequest, 1000);
 
-  setTimeout(() => clearInterval(getServerDirections), 50000)
+  setTimeout(() => clearInterval(getServerDirections), 500000)
 
   /////////////////////////////////////////////////////////////////////
   // The ajax file uplaoder is provided for your convenience!
